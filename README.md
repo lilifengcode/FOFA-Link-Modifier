@@ -1,2 +1,10 @@
-# FOFA-Link-Modifier
-FOFA Link Modifier
+# Chrome Plugin 
+
+### 1.FOFA 点击直接跳转到无痕模式、方便我点点点了
+### 2.开发者模式、直接加载
+
+![](media/16938078320011.jpg)
+### 3.做人要开心哦
+
+![](media/16938081094007.jpg)
+
