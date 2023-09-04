@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "FOFA Link Modifier",
+  "author": "裁决",
+  "version": "1.0",
+  "description": "FOFA点击网页自动跳转到无痕模式",
+  "icons": { 
+    "16": "ico.png",
+    "48": "ico.png",
+   "128": "ico.png" 
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://fofa.info/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "ico.png", 
+      "48": "ico.png", 
+      "128": "ico.png" 
+    }
+  }
+}
